@@ -29,11 +29,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Projeto realizado para desenvolver e aperfeiçoar técnicas de UI Design.
 
-- [Visite meu projeto online](https://raphetes.github.io/portfolio/){:target="_blank"}
+- <a href="https://raphetes.github.io/portfolio/" style="color: #517ac8" target="_blank">Acesse o projeto</a>
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/79oG53osjxN1UVLeOFIF9W/Meu-Projeto?type=design&node-id=6%3A290&mode=design&t=6hGfNUT6PQGUwQEE-1). É necessário ter conta no [Figma](https://figma.com){:target="_blank"} para acessá-lo.
+Você pode visualizar o layout do projeto através<a href="https://www.figma.com/file/79oG53osjxN1UVLeOFIF9W/Meu-Projeto?type=design&node-id=6%3A290&mode=design&t=6hGfNUT6PQGUwQEE-1" style="color: #517ac8;" target="_blank">desse link</a>. É necessário ter conta no <a href="https://figma.com" style="color: #517ac8;" target="_blank">Figma</a> para acessá-lo.
 
 ---
 ## 📕 Licença
