@@ -33,7 +33,7 @@ Projeto realizado para desenvolver e aperfeiçoar técnicas de UI Design.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através<a href="https://www.figma.com/file/79oG53osjxN1UVLeOFIF9W/Meu-Projeto?type=design&node-id=6%3A290&mode=design&t=6hGfNUT6PQGUwQEE-1" style="color: #517ac8;" target="_blank">desse link</a>. É necessário ter conta no <a href="https://figma.com" style="color: #517ac8;" target="_blank">Figma</a> para acessá-lo.
+Você pode visualizar o layout do projeto através <a href="https://www.figma.com/file/79oG53osjxN1UVLeOFIF9W/Meu-Projeto?type=design&node-id=6%3A290&mode=design&t=6hGfNUT6PQGUwQEE-1" style="color: #517ac8;" target="_blank">desse link</a>. É necessário ter conta no <a href="https://figma.com" style="color: #517ac8;" target="_blank">Figma</a> para acessá-lo.
 
 ---
 ## 📕 Licença
