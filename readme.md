@@ -29,11 +29,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Projeto realizado para desenvolver e aperfeiçoar técnicas de UI Design.
 
-- [Visite meu projeto online](https://RaphaelMelo1.github.io/Portfolio)
+- [Visite meu projeto online](https://raphetes.github.io/portfolio/){:target="_blank"}
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/79oG53osjxN1UVLeOFIF9W/Meu-Projeto?type=design&node-id=6%3A290&mode=design&t=6hGfNUT6PQGUwQEE-1). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/79oG53osjxN1UVLeOFIF9W/Meu-Projeto?type=design&node-id=6%3A290&mode=design&t=6hGfNUT6PQGUwQEE-1). É necessário ter conta no [Figma](https://figma.com){:target="_blank"} para acessá-lo.
 
 ---
 ## 📕 Licença
