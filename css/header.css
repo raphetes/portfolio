@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+.logo {
+  transition: .3s;
+}
+.logo:hover {
+  transform: scale(1.1);
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 5.5rem;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-size: 2.2rem;
+  color: var(--c10);
+  position: relative;
+}
+header nav ul li a:after {
+  content: '';
+  width: 0;
+  height: .2rem;
+  background: var(--c4);
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease;
+}
+header nav ul li a:hover::after {
+  width: 75%;
+}

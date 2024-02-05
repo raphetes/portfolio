@@ -1,0 +1,81 @@
+.intro {
+  display: grid;
+  gap: 40rem;
+  align-items: center;
+  grid-template-columns: auto 1fr;
+  margin-bottom: 8rem;
+}
+.informacoes h1 {
+  font-size: 6.4rem;
+  position: relative;
+  color: var(--c13);
+}
+.informacoes h1 span {
+  color: var(--b6);
+}
+.informacoes h1::after {
+  width: 2.4rem;
+  height: .7rem;
+  content: '';
+  position: absolute;
+  background: var(--b6);
+  bottom: 1.2rem;
+}
+.informacoes p {
+  color: var(--c9);
+  font-size: 2.4rem;
+  line-height: 1.4;
+  padding: 2.5rem 0 1rem;
+}
+.informacoes p .insta {
+  text-decoration: none;
+  color: var(--b2);
+  transition: .1s;
+}
+.informacoes p .insta:hover {
+  color: var(--b6);
+}
+.localizado {
+  font-size: 2rem;
+  color: var(--c7);
+}
+
+@media (max-width: 1700px) {
+  .intro {
+    gap: 20rem;
+  }
+}
+@media (max-width: 1550px) {
+  .break {
+    display: none;
+  }
+}
+@media (max-width: 1250px) {
+  .intro {
+    gap: 10rem;
+    margin-bottom: 6rem;
+  }
+  .informacoes h1 {
+    font-size: 5rem;
+  }
+  .informacoes p {
+    font-size: 2rem;
+  }
+  .localizado {
+    font-size: 1.6rem;
+  }
+  .foto {
+    width: 26rem;
+  }
+}
+@media (max-width: 900px) {
+  .foto {
+    width: 20rem;
+  }
+  .informacoes h1 {
+    font-size: 4rem;
+  }
+  .informacoes p {
+    font-size: 1.8rem;
+  }
+}

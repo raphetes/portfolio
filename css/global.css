@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+  --white-base: #fff;
+  --black-base: #000;
+  --gradient1: #22228f;
+  --gradient2: #517ac8;
+  --c1: #e8e8ea;
+  --c2: #dfdfe2;
+  --c4: #b4b4bb;
+  --c5: #9F9FA8;
+  --c7: #747581;
+  --c8: #61616b;
+  --c9: #4e4e56;
+  --c10: #3a3a40;
+  --bg-formacao: #0e0e0f;
+  --c13: #09090b;
+  --b2: #4263B8;
+  --b4: #253795;
+  --b6: #13176B;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 1.6rem;
+  font-family: Lato;
+}
+
+::-webkit-scrollbar {
+  background: var(--c7);
+}
+
+.main-page {
+  padding: 5rem 11rem 0;
+}
+
+@media (max-width: 1550px) {
+  .main-page {
+    padding: 4rem 6rem;
+  }
+}

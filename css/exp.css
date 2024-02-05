@@ -1,0 +1,153 @@
+.experiencias {
+  display: grid;
+  justify-items: center;
+  padding: 0 9rem;
+}
+
+.experiencias .titulo {
+  color: var(--c13);
+  text-transform: uppercase;
+  font-size: 6.4rem;
+  margin-bottom: 10rem;
+  font-weight: 700;
+}
+.projetos {
+  width: 100%;
+  display: grid;
+}
+.projeto {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20rem;
+}
+.detalhe {
+  width: 100%;
+  height: .3rem;
+  background: var(--c1);
+  margin: 5.2rem 0;
+}
+.imagem {
+  width: 57rem;
+  height: 33rem;
+  border-radius: .8rem;
+  background: #d9d9d9;
+  font-size: 5.4rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.especificacoes {
+  display: grid;
+  align-content: start;
+  gap: 2rem;
+}
+.especificacoes h2 {
+  color: var(--c13);
+  font-size: 4.8rem;
+  letter-spacing: .3rem;
+  font-weight: 500;
+  position: relative;
+}
+.especificacoes h2::after {
+  content: '';
+  width: 3rem;
+  height: .4rem;
+  background: linear-gradient(to right, var(--gradient1), var(--gradient2));
+  position: absolute;
+  bottom: 1rem;
+}
+.especificacoes p {
+  font-size: 2.6rem;
+  line-height: 1.7;
+  color: var(--c9);
+}
+.especificacoes span {
+  font-size: 2.4rem;
+}
+.ferramentas {
+  display: flex;
+  justify-content: space-between;
+}
+.ferramentas span {
+  color: var(--c8);
+}
+.linguagens {
+  display: flex;
+  gap: 1rem;
+}
+.linguagens span {
+  padding: 1rem;
+  color: var(--c10);
+  background: var(--c2);
+  border-radius: .5rem;
+}
+
+.projeto2 {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10rem;
+}
+.projeto2 .especificacoes {
+  text-align: right;
+}
+.projeto2 .linguagens {
+  justify-content: end;
+}
+
+@media (max-width: 1700px) {
+  .break {
+    display: none;
+  }
+  .projeto, .projeto2 {
+    gap: clamp(4rem, +5vw, 14rem);
+  }
+}
+@media (max-width: 1550px) {
+  .experiencias {
+    padding: 0;
+  }
+}
+@media (max-width: 1250px) {
+  .imagem {
+    margin: 0 auto;
+  }
+  .projeto, .projeto2 {
+    grid-template-columns: auto;
+  }
+  .projeto2 .especificacoes {
+    text-align: left;
+  }
+  .ferramentas {
+    flex-direction: row-reverse;
+  }
+  .projeto2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .projeto2 .linguagens {
+    justify-content: start;
+  }
+}
+@media (max-width: 900px) {
+  .experiencias .titulo {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+  .imagem {
+    font-size: 3rem;
+    width: 36rem;
+    height: 20rem;
+  }
+  .especificacoes h2 {
+    font-size: 3rem;
+  }
+  .especificacoes p {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  .especificacoes span {
+    font-size: 1.6rem;
+  }
+}
